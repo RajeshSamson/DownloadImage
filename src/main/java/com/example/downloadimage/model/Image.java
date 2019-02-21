@@ -9,6 +9,11 @@ public class Image {
 
     }
 
+    public Image(String name, String data) {
+        this.name = name;
+        this.data = data;
+    }
+
     public String getName() {
         return name;
     }
